@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Container, Paper, Avatar, Typography, TextField, Button, Box, CssBaseline } from '@mui/material';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
-const backgroundImageUrl = 'https://www.impulsocooperativo.com/wp-content/uploads/2021/09/web-design-concept-desarrollo.jpg';
+const backgroundImageUrl = 'https://www.impulsocooperativo.com/wp-content/uploads/2021/09/web-design-concept-desarrollo.jp';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -26,6 +26,7 @@ const Login = () => {
         backgroundImage: `url(${backgroundImageUrl})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        backgroundimage: 'url("https://www.codinter.com/es/wp-content/uploads/sites/3/2018/06/blog-ES-Reducir-costos-en-soldadura-5-metodos-efectivos-para-empresas-y-contratistas.jpg")',
         minHeight: '100vh',
         display: 'flex',
         justifyContent: 'center',
@@ -34,7 +35,7 @@ const Login = () => {
       }}
     >
       <CssBaseline />
-      <Container
+      <Container  
         component="main"
         maxWidth="xs"
         sx={{
@@ -52,7 +53,7 @@ const Login = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            backgroundColor: 'rgba(255, 255, 255, 0.9)',
+            background: 'linear-Gradient(#921,#fff)',
             backdropFilter: 'blur(10px)',
             borderRadius: 2,
             boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
@@ -105,14 +106,7 @@ const Login = () => {
             >
               Ingresar
             </Button>
-            <Button
-              fullWidth
-              variant="outlined"
-              color="primary"
-              sx={{ mt: 1, fontWeight: 'bold', padding: 1.5 }}
-            >
-              Registrarse
-            </Button>
+
           </Box>
         </Paper>
       </Container>
