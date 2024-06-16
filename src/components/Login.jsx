@@ -26,7 +26,7 @@ const Login = () => {
         backgroundImage: `url(${backgroundImageUrl})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundimage: 'url("https://www.codinter.com/es/wp-content/uploads/sites/3/2018/06/blog-ES-Reducir-costos-en-soldadura-5-metodos-efectivos-para-empresas-y-contratistas.jpg")',
+        
         minHeight: '100vh',
         display: 'flex',
         justifyContent: 'center',
@@ -53,7 +53,7 @@ const Login = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            background: 'linear-Gradient(#921,#fff)',
+            background: 'transparent',
             backdropFilter: 'blur(10px)',
             borderRadius: 2,
             boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
