@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { getClientes, createCliente, updateCliente, deleteCliente } from '../api/clienteApi';
 import { Container, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Button, TextField, Typography, Grid, Box, IconButton, Card, CardContent } from '@mui/material';
 import { Edit, Delete } from '@mui/icons-material';
+import s
 
 const Clientes = () => {
   const [clientes, setClientes] = useState([]);
