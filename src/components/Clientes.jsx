@@ -3,6 +3,7 @@ import { getClientes, createCliente, updateCliente, deleteCliente } from '../api
 import { Container, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Button, TextField, Typography, Grid, Box, IconButton, Card, CardContent } from '@mui/material';
 import { Edit, Delete } from '@mui/icons-material';
 
+
 const Clientes = () => {
   const [clientes, setClientes] = useState([]);
   const [newCliente, setNewCliente] = useState({ nombre: '', email: '', celular: '', documento: '', direccion: '', contrasena: '' });
