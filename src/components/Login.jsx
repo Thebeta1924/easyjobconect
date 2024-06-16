@@ -53,7 +53,7 @@ const Login = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            background: 'transparent',
+            background: 'trasnparent',
             backdropFilter: 'blur(10px)',
             borderRadius: 2,
             boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
