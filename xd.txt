@@ -1,0 +1,363 @@
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/AMBIENTE 314/Desktop/easyjobconect/.git/
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main)
+$ git log
+commit ea30dbc67c396c0f523eb331334515dd80183c29 (HEAD -> main, origin/main, origin/HEAD)
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:53:54 2024 -0500
+
+    agregando usuario solo millos
+
+commit b1849da783e707050988698bebabcf879608660e (juancif/main)
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:45:14 2024 -0500
+
+    tercer commit
+
+commit 4b20341d0d3f9bbe9d644fdb14f10498879b6406
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:37:32 2024 -0500
+
+    segundo commit
+
+commit 606d6af04ebfb6afdf8822462c8beec8333e5711
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:30:16 2024 -0500
+
+    Fondo login
+
+commit a152141290e5fcecd282a7ffa605f46dae03d3d4 (origin/sebastian, origin/juan, origin/edwin)
+Author: Thebeta1924 <miguelangelbeltranrache11@gmail.com>
+Date:   Sat Jun 15 14:53:16 2024 -0500
+
+    fondo login
+
+commit 70c5036e5d4307e95ea125aeea95166d2c733226
+Author: anatawadrust <aramansebastian@gmail.com>
+Date:   Sat Jun 8 17:07:53 2024 -0500
+
+    conexion
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main)
+$ git log
+commit ea30dbc67c396c0f523eb331334515dd80183c29 (HEAD -> main, origin/main, origin/HEAD)
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:53:54 2024 -0500
+
+    agregando usuario solo millos
+
+commit b1849da783e707050988698bebabcf879608660e (juancif/main)
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:45:14 2024 -0500
+
+    tercer commit
+
+commit 4b20341d0d3f9bbe9d644fdb14f10498879b6406
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:37:32 2024 -0500
+
+    segundo commit
+
+commit 606d6af04ebfb6afdf8822462c8beec8333e5711
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:30:16 2024 -0500
+
+    Fondo login
+
+commit a152141290e5fcecd282a7ffa605f46dae03d3d4 (origin/sebastian, origin/juan, origin/edwin)
+Author: Thebeta1924 <miguelangelbeltranrache11@gmail.com>
+Date:   Sat Jun 15 14:53:16 2024 -0500
+
+    fondo login
+
+commit 70c5036e5d4307e95ea125aeea95166d2c733226
+Author: anatawadrust <aramansebastian@gmail.com>
+Date:   Sat Jun 8 17:07:53 2024 -0500
+
+    conexion
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main)
+$ git log
+commit ea30dbc67c396c0f523eb331334515dd80183c29 (HEAD -> main, origin/main, origin/HEAD)
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:53:54 2024 -0500
+
+    agregando usuario solo millos
+
+commit b1849da783e707050988698bebabcf879608660e (juancif/main)
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:45:14 2024 -0500
+
+    tercer commit
+
+commit 4b20341d0d3f9bbe9d644fdb14f10498879b6406
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:37:32 2024 -0500
+
+    segundo commit
+
+commit 606d6af04ebfb6afdf8822462c8beec8333e5711
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:30:16 2024 -0500
+
+    Fondo login
+
+commit a152141290e5fcecd282a7ffa605f46dae03d3d4 (origin/sebastian, origin/juan, origin/edwin)
+Author: Thebeta1924 <miguelangelbeltranrache11@gmail.com>
+Date:   Sat Jun 15 14:53:16 2024 -0500
+
+    fondo login
+
+commit 70c5036e5d4307e95ea125aeea95166d2c733226
+Author: anatawadrust <aramansebastian@gmail.com>
+Date:   Sat Jun 8 17:07:53 2024 -0500
+
+    conexion
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main)
+$ git log
+commit 39986c4d68616b90a898fce69bd541cb48360b9a (HEAD -> juan, origin/juan)
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 12:07:59 2024 -0500
+
+    fondo pagina principal
+
+commit a152141290e5fcecd282a7ffa605f46dae03d3d4 (origin/sebastian, origin/edwin)
+Author: Thebeta1924 <miguelangelbeltranrache11@gmail.com>
+Date:   Sat Jun 15 14:53:16 2024 -0500
+
+    fondo login
+
+commit 70c5036e5d4307e95ea125aeea95166d2c733226
+Author: anatawadrust <aramansebastian@gmail.com>
+Date:   Sat Jun 8 17:07:53 2024 -0500
+
+    conexion
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (juan)
+$ git checkout main
+error: Your local changes to the following files would be overwritten by checkout:
+        src/index.css
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (juan)
+$ git status
+On branch juan
+Your branch is up to date with 'origin/juan'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/index.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (juan)
+$ git add .
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (juan)
+$ git commit -m "Actualizacion index.css"
+[juan 9f0dfa5] Actualizacion index.css
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (juan)
+$ git status
+On branch juan
+Your branch is ahead of 'origin/juan' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (juan)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main)
+$ git merge juan
+Auto-merging src/index.css
+CONFLICT (content): Merge conflict in src/index.css
+Automatic merge failed; fix conflicts and then commit the result.
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main|MERGING)
+$ git pull
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main|MERGING)
+$ ^C
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main|MERGING)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   src/index.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main|MERGING)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   src/index.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main|MERGING)
+$ git add .
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main|MERGING)
+$ git commit -m "Solucion al cnflicto"
+[main e2f282e] Solucion al cnflicto
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main)
+$ git merge juan
+Already up to date.
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main)
+$ git push
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 727 bytes | 363.00 KiB/s, done.
+Total 8 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/Thebeta1924/easyjobconect
+   ea30dbc..e2f282e  main -> main
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main)
+$ git merge juan
+Already up to date.
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main)
+$ git checkout juan
+Switched to branch 'juan'
+Your branch is ahead of 'origin/juan' by 1 commit.
+  (use "git push" to publish your local commits)
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (juan)
+$ git pull origin main
+remote: Enumerating objects: 42, done.
+remote: Counting objects: 100% (35/35), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 18 (delta 12), reused 18 (delta 12), pack-reused 0
+Unpacking objects: 100% (18/18), 56.33 KiB | 554.00 KiB/s, done.
+From https://github.com/Thebeta1924/easyjobconect
+ * branch            main       -> FETCH_HEAD
+   e2f282e..9cb4713  main       -> origin/main
+Updating 9f0dfa5..9cb4713
+Fast-forward
+ package-lock.json           |   8 ++++----
+ package.json                |   2 +-
+ public/EasyLogo.png         | Bin 0 -> 55920 bytes
+ src/App.css                 |   3 ++-
+ src/components/Clientes.jsx |   1 +
+ src/components/Login.jsx    |   4 ++--
+ src/index.css               |   3 ++-
+ 7 files changed, 12 insertions(+), 9 deletions(-)
+ create mode 100644 public/EasyLogo.png
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (juan)
+$
+
+AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (juan)
+$ git log
+commit 9cb47138ad4362ac18cadd692b364e1310df1779 (HEAD -> juan, origin/main, origin/HEAD)
+Merge: 34f54b4 e2f282e
+Merge: 34f54b4 e2f282e
+commit 9cb47138ad4362ac18cadd692b364e1310df1779 (HEAD -> juan, origin/main, origin/HEAD)
+Merge: 34f54b4 e2f282e
+Author: Thebeta1924 <miguelangelbeltranrache11@gmail.com>
+Date:   Sun Jun 16 12:23:59 2024 -0500
+
+    imagen logo
+
+commit 34f54b431f432d6add34cb0f7329c61d4f62a152
+Merge: 025ef1b ea30dbc
+Author: Thebeta1924 <miguelangelbeltranrache11@gmail.com>
+Date:   Sun Jun 16 12:18:51 2024 -0500
+
+    imagen logo
+
+commit e2f282e855c8d0fa8932a79f1f2190adc2d57c60 (main)
+Merge: ea30dbc 9f0dfa5
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 12:15:33 2024 -0500
+
+    Solucion al cnflicto
+
+commit 9f0dfa56373020ec13f4ce8b9640ffebc281785d
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 12:11:44 2024 -0500
+
+    Actualizacion index.css
+
+commit 39986c4d68616b90a898fce69bd541cb48360b9a (origin/juan)
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 12:07:59 2024 -0500
+
+    fondo pagina principal
+
+commit 025ef1bde23615ccd9810d0a0236d512dbeaa824
+Author: Thebeta1924 <miguelangelbeltranrache11@gmail.com>
+Date:   Sun Jun 16 11:56:59 2024 -0500
+
+    Imagen logo
+
+commit ea30dbc67c396c0f523eb331334515dd80183c29
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:53:54 2024 -0500
+
+    agregando usuario solo millos
+
+commit b1849da783e707050988698bebabcf879608660e (juancif/main)
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:45:14 2024 -0500
+
+    tercer commit
+
+commit 4b20341d0d3f9bbe9d644fdb14f10498879b6406
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:37:32 2024 -0500
+
+    segundo commit
+
+commit 606d6af04ebfb6afdf8822462c8beec8333e5711
+Author: juancif <cifuenteslozanojuandavid@gmail.com>
+Date:   Sun Jun 16 11:30:16 2024 -0500
+
+    Fondo login
+
+commit a152141290e5fcecd282a7ffa605f46dae03d3d4 (origin/edwin)
+Author: Thebeta1924 <miguelangelbeltranrache11@gmail.com>
+Date:   Sat Jun 15 14:53:16 2024 -0500
+
+    fondo login
+
+commit 70c5036e5d4307e95ea125aeea95166d2c733226
+Author: anatawadrust <aramansebastian@gmail.com>
+Date:   Sat Jun 8 17:07:53 2024 -0500
+
+    conexion
+(END)
