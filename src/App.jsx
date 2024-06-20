@@ -21,7 +21,7 @@ const App = () => {
           </ProtectedRoute>
         }
       >
-        <Route path="clientes" element={<Clientes />} />
+        <Route path="clientes" element={<Clientes /> } />
         <Route path="empleados" element={<Empleados />} />
         <Route path="productos" element={<Productos />} />
         <Route path="servicios" element={<Servicios />} />

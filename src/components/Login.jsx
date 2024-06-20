@@ -59,7 +59,8 @@ const Login = () => {
             minWidth: '300px',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+          <Avatar sx={{ m: 1, bgcolor:"transparent", 
+          }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5" sx={{ fontWeight: 'bold' }}>
@@ -72,14 +73,14 @@ const Login = () => {
               required
               fullWidth
               id="email"
-              label="Correo Electrónico"
+              placeholder="Correo Electrónico"
               name="email"
               autoComplete="email"
               autoFocus
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              InputLabelProps={{ style: { color: '#333' } }}
-              InputProps={{ style: { color: '#333' } }}
+              InputLabelProps={{ style: { color: '#333' , background:"#ddd"} }}
+              InputProps={{ style: { color: '#333', background:"#ddd"} }}
             />
             <TextField
               variant="outlined"
@@ -87,16 +88,17 @@ const Login = () => {
               required
               fullWidth
               name="password"
-              label="Contraseña"
+              placeholder="Contraseña"
               type="password"
               id="password"
               autoComplete="current-password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              InputLabelProps={{ style: { color: '#333' } }}
-              InputProps={{ style: { color: '#333' } }}
+              InputLabelProps={{ style: { color: '#333', background:"#ddd" } }}
+              InputProps={{ style: { color: '#333' , background:"#ddd", border: '5px' } }}
             />
             <Button
+              background-color="red"
               fullWidth
               variant="contained"
               color="primary"
