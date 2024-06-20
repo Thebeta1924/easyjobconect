@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Container, Paper, Avatar, Typography, TextField, Button, Box, CssBaseline } from '@mui/material';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
-const backgroundImageUrl = 'https://www.impulsocooperativo.com/wp-content/uploads/2021/09/web-design-concept-desarrollo.jp';
+const backgroundImageUrl = '/public/fondo_login.webp';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -26,7 +26,6 @@ const Login = () => {
         backgroundImage: `url(${backgroundImageUrl})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        background: 'linear-Gradient(#000, #999)',
         minHeight: '100vh',
         display: 'flex',
         justifyContent: 'center',
