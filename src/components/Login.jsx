@@ -11,7 +11,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    if (email === 'miguelangelbeltranrache11@gmail.com' && password === 'miguel123') {
+    if (email === 'miguelangelbeltranrache11@gmail.com' && password === 'miguel123', email === 'juancif@gmail.com' && password === 'juan123') {
       localStorage.setItem('authenticated', 'true');
       localStorage.setItem('userEmail', email);  // Almacenar el correo del usuario
       navigate('/dashboard');
