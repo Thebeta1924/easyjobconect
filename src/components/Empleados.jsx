@@ -49,8 +49,8 @@ const Empleados = () => {
   };
 
   return (
-    <Container>
-      <Typography variant="h4" component="h1" gutterBottom>
+    <Container style={{ background: '#00808077'}}>
+      <Typography variant="h4" component="h1" gutterBottom style={{color:'white'}}>
         Empleados
       </Typography>
       <Card sx={{ mb: 3 }}>
@@ -82,7 +82,7 @@ const Empleados = () => {
           </Grid>
         </CardContent>
       </Card>
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} style={{ background: '#00808077'}}>
         <Table>
           <TableHead>
             <TableRow>
@@ -105,10 +105,10 @@ const Empleados = () => {
                 <TableCell>{empleado.telefono}</TableCell>
                 <TableCell>{empleado.fecha_nacimiento}</TableCell>
                 <TableCell>
-                  <IconButton color="primary" onClick={() => handleEdit(empleado)} style={{ marginRight: '10px' }}>
+                  <IconButton color="primary" onClick={() => handleEdit(empleado)} style={{ marginRight: '10px', background: '#fff'}}>
                     <Edit />
                   </IconButton>
-                  <IconButton color="secondary" onClick={() => handleDelete(empleado.id)}>
+                  <IconButton color="secondary" onClick={() => handleDelete(empleado.id)} style={{ background: '#fff' }}>
                     <Delete />
                   </IconButton>
                 </TableCell>

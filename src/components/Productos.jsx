@@ -49,7 +49,7 @@ const Productos = () => {
   };
 
   return (
-    <Container>
+    <Container style={{ background: '#00808077'}}>
       <Typography variant="h4" component="h1" gutterBottom>
         Productos
       </Typography>
@@ -73,7 +73,7 @@ const Productos = () => {
           </Grid>
         </CardContent>
       </Card>
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} style={{ background: '#00808077'}}>
         <Table>
           <TableHead>
             <TableRow>
@@ -90,10 +90,10 @@ const Productos = () => {
                 <TableCell>{producto.precio}</TableCell>
                 <TableCell>{producto.stock}</TableCell>
                 <TableCell>
-                  <IconButton color="primary" onClick={() => handleEdit(producto)} style={{ marginRight: '10px' }}>
+                  <IconButton color="primary" onClick={() => handleEdit(producto)} style={{ marginRight: '10px', background:'#fff'}}>
                     <Edit />
                   </IconButton>
-                  <IconButton color="secondary" onClick={() => handleDelete(producto.id_producto)}>
+                  <IconButton color="secondary" onClick={() => handleDelete(producto.id_producto)} style={{ background: '#fff' }}>
                     <Delete />
                   </IconButton>
                 </TableCell>

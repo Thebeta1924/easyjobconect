@@ -49,7 +49,7 @@ const Servicios = () => {
   };
 
   return (
-    <Container>
+    <Container style={{ background: '#00808077'}}>
       <Typography variant="h4" component="h1" gutterBottom>
         Servicios
       </Typography>
@@ -73,7 +73,7 @@ const Servicios = () => {
           </Grid>
         </CardContent>
       </Card>
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} style={{ background: '#00808077'}}>
         <Table>
           <TableHead>
             <TableRow>
@@ -90,10 +90,10 @@ const Servicios = () => {
                 <TableCell>{servicio.nombre}</TableCell>
                 <TableCell>{servicio.tarifa}</TableCell>
                 <TableCell>
-                  <IconButton color="primary" onClick={() => handleEdit(servicio)} style={{ marginRight: '10px' }}>
+                  <IconButton color="primary" onClick={() => handleEdit(servicio)} style={{ marginRight: '10px', background:'#fff' }}>
                     <Edit />
                   </IconButton>
-                  <IconButton color="secondary" onClick={() => handleDelete(servicio.servicioid)}>
+                  <IconButton color="secondary" onClick={() => handleDelete(servicio.servicioid)} style={{ background: '#fff' }}>
                     <Delete />
                   </IconButton>
                 </TableCell>

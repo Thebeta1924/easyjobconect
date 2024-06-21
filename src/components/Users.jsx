@@ -49,7 +49,7 @@ const Users = () => {
   };
 
   return (
-    <Container>
+    <Container style={{ background: '#00808077'}}>
       <Typography variant="h4" component="h1" gutterBottom>
         Users
       </Typography>
@@ -91,7 +91,7 @@ const Users = () => {
           </Grid>
         </CardContent>
       </Card>
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} style={{ background: '#00808077'}}>
         <Table>
           <TableHead>
             <TableRow>
@@ -118,10 +118,10 @@ const Users = () => {
                 <TableCell>{user.username}</TableCell>
                 <TableCell>{user.secretpin}</TableCell>
                 <TableCell>
-                  <IconButton color="primary" onClick={() => handleEdit(user)} style={{ marginRight: '10px' }}>
+                  <IconButton color="primary" onClick={() => handleEdit(user)} style={{ marginRight: '10px', background:'#fff' }}>
                     <Edit />
                   </IconButton>
-                  <IconButton color="secondary" onClick={() => handleDelete(user.id)}>
+                  <IconButton color="secondary" onClick={() => handleDelete(user.id)} style={{ background: '#fff' }}>
                     <Delete />
                   </IconButton>
                 </TableCell>

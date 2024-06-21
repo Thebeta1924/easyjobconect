@@ -50,12 +50,12 @@ const Clientes = () => {
   };
 
   return (
-    <Container>
-      <Typography variant="h4" component="h1" gutterBottom>
+    <Container style={{ background: '#00808077'}}>
+      <Typography variant="h4" component="h1" gutterBottom style={{color:'white'}}>
         Clientes
       </Typography>
       <Card sx={{ mb: 3 }}>
-        <CardContent>
+        <CardContent style={{ background: '#fff'}}>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6}>
               <TextField label="Nombre" name="nombre" value={newCliente.nombre} onChange={handleChange} fullWidth />
@@ -83,7 +83,7 @@ const Clientes = () => {
           </Grid>
         </CardContent>
       </Card>
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} style={{ background: '#0885' }}>
         <Table>
           <TableHead>
             <TableRow>
@@ -104,10 +104,10 @@ const Clientes = () => {
                 <TableCell>{cliente.documento}</TableCell>
                 <TableCell>{cliente.direccion}</TableCell>
                 <TableCell>
-                  <IconButton color="primary" onClick={() => handleEdit(cliente)} style={{ marginRight: '10px' }}>
+                  <IconButton color="primary" onClick={() => handleEdit(cliente)} style={{ marginRight: '10px', background: '#fff' }}>
                     <Edit />
                   </IconButton>
-                  <IconButton color="secondary" onClick={() => handleDelete(cliente.id_cliente)}>
+                  <IconButton color="secondary" onClick={() => handleDelete(cliente.id_cliente)} style={{ background: '#fff' }}>
                     <Delete />
                   </IconButton>
                 </TableCell>

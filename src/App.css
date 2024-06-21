@@ -50,7 +50,7 @@ button:hover {
   transition: background 0.3s ease, transform 0.3s ease;
 }
 .sidebar .logout-btn:hover {
-  background: #c9302c;
+  background: #000000;
   transform: scale(1.05);
 }
 
@@ -87,9 +87,10 @@ table th, table td {
   padding: 0.75em;
   text-align: left;
   border-bottom: 1px solid #ddd;
+  background-color: #fff;
 }
 table th {
-  background: #940303;
+  background: #008080
 }
 
 /* Animación de aparición */

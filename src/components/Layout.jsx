@@ -16,12 +16,12 @@ const Layout = () => {
   };
 
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ display: 'flex' }} >
       <CssBaseline />
-      <AppBar position="fixed" sx={{ zIndex: 1201, width: `calc(100% - ${drawerWidth}px)`, ml: `${drawerWidth}px` }}>
-        <Toolbar>
-          <Typography variant="h6" noWrap component="div">
-            Dashboard
+      <AppBar position="fixed" sx={{ zIndex: 1201, background:'#008080', width: `calc(100% - ${drawerWidth}px)`, ml: `${drawerWidth}px` }}>
+        <Toolbar >
+          <Typography variant="h6" noWrap component="div" style={{ marginLeft:'680px', fontSize: 40 , color:'#000'}}>
+            EasyJob
           </Typography>
         </Toolbar>
       </AppBar>
@@ -30,12 +30,12 @@ const Layout = () => {
         sx={{
           width: drawerWidth,
           flexShrink: 0,
-          [`& .MuiDrawer-paper`]: { width: drawerWidth, boxSizing: 'border-box' },
+          [`& .MuiDrawer-paper`]: { width: drawerWidth, boxSizing: 'border-box', background:'#008080'},
         }}
       >
         <Toolbar />
-        <Box sx={{ overflow: 'auto' }}>
-          <List>
+        <Box sx={{ overflow: 'auto', background:'#008080'}}>
+          <List >
             <ListItem button component={Link} to="/dashboard/clientes">
               <ListItemIcon><People /></ListItemIcon>
               <ListItemText primary="Clientes" />
@@ -57,7 +57,7 @@ const Layout = () => {
               <ListItemText primary="Users" />
             </ListItem>
           </List>
-          <Box sx={{ position: 'absolute', bottom: 16, width: '100%', textAlign: 'center' }}>
+          <Box sx={{ position: 'absolute', bottom: 16, width: '100%', textAlign: 'center'}}>
             <Button variant="contained" color="secondary" onClick={handleLogout}>
               Cerrar Sesión
             </Button>

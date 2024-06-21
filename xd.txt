@@ -1,4 +1,3 @@
-
 AMBIENTE 201@DESKTOP-JM874TI MINGW64 ~/Desktop/easyjobconect (main)
 $ git init
 Reinitialized existing Git repository in C:/Users/AMBIENTE 314/Desktop/easyjobconect/.git/
