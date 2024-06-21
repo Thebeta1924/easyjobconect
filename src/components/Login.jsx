@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Container, Paper, Avatar, Typography, TextField, Button, Box, CssBaseline } from '@mui/material';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
-const backgroundImageUrl = '/public/fondo_login.webp';
+const backgroundImageUrl = '/public/fondo5_login.webp';
 
 const Login = () => {
   const [email, setEmail] = useState('');
