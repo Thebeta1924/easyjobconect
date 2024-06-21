@@ -50,7 +50,7 @@ const Productos = () => {
 
   return (
     <Container style={{ background: '#00808077'}}>
-      <Typography variant="h4" component="h1" gutterBottom>
+      <Typography variant="h4" component="h1" gutterBottom style={{color:'white'}}>
         Productos
       </Typography>
       <Card sx={{ mb: 3 }}>
