@@ -20,7 +20,7 @@ const Layout = () => {
       <CssBaseline />
       <AppBar position="fixed" sx={{ zIndex: 1201, background:'#008080', width: `calc(100% - ${drawerWidth}px)`, ml: `${drawerWidth}px` }}>
         <Toolbar >
-          <Typography variant="h6" noWrap component="div" style={{ marginLeft:'680px', fontSize: 40 , color:'#000'}}>
+          <Typography variant="h6" noWrap component="div" style={{ marginLeft:'500px', fontSize: 40 , color:'#fff'}}>
             EasyJob
           </Typography>
         </Toolbar>
@@ -34,7 +34,7 @@ const Layout = () => {
         }}
       >
         <Toolbar />
-        <Box sx={{ overflow: 'auto', background:'#008080'}}>
+        <Box sx={{ overflow: 'auto', background:'#008080', color:'#fff'}}>
           <List >
             <ListItem button component={Link} to="/dashboard/clientes">
               <ListItemIcon><People /></ListItemIcon>
